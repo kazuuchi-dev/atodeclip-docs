@@ -31,4 +31,9 @@ main { max-width: 36rem; margin: 0 auto; padding: 1rem 1rem 3rem; }
 .tags { color: var(--accent); }
 .photo { display: block; width: 100%; height: auto; }
 .meta { display: flex; gap: 1.25rem; padding: .75rem 1rem; color: var(--sub); font-size: .85rem; border-top: 1px solid var(--line); }
+.share {
+  display: block; width: calc(100% - 2rem); margin: .25rem 1rem 1rem; padding: .65rem;
+  border: 1px solid var(--accent); border-radius: 999px; background: transparent;
+  color: var(--accent); font: inherit; font-weight: 700;
+}
 .note { color: var(--sub); font-size: .75rem; text-align: center; margin-top: 1.5rem; }
